@@ -1,4 +1,6 @@
 <?php 
+<?php
+require __DIR__ . '/welcome.php';
 // 1. Database logic
 include_once 'config/db_connect.php';
 

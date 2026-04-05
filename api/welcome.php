@@ -1,4 +1,7 @@
 <?php
+include __DIR__ . '/header.php';
+require __DIR__ . '/config/db_connect.php';
+
 session_start();
 if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
     header("Location: auth/admin.php");

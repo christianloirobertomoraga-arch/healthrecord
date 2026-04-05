@@ -6,6 +6,6 @@
     }
   },
   "routes": [
-    { "src": "/", "dest": "/api/welcome.php" }
+    { "src": "/", "dest": "/api/index.php" }
   ]
 }
